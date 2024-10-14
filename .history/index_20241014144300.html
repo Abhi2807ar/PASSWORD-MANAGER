@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentx</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;;
+ }   
+ nav{ background-color: blueviolet;
+ }
+ ul{
+    display:flex;
+
+ }
+ ul li{
+    list-style:none;
+margin:0 13px;
+ }
+ table tr{
+    border:2px solid black
+
+ }
+td{
+
+}
+</style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+
+        </ul>
+
+    </nav>
+    <div class="'container">
+        <h1>Password Manager</h1>
+        <p> We're glad to have you here! Your security is our top priority,
+             and we’re committed to helping you manage your passwords safely and efficiently.
+              With our intuitive interface and powerful encryption, you can easily store, generate, and access your passwords without worry.
+Thank you for trusting us with your online security. Let’s get started on making your digital life easier and safer!
+Happy browsing!
+        </p>
+        <h2>Your Passwords</h2>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Harry</td>
+              <td>100</td>
+            </tr>
+          </table>
+        <h2>Add a Password</h2>
+
+    </div>
+    
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+    
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+    
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+</body>
+</html>
